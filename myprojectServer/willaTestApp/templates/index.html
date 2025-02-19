@@ -1,0 +1,21 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        test server willa
+        {% for person in person_list %}
+        <h1>{{person.id}}</h1>
+        <span>{{person.name}}</span>
+        <span>{{person.age}}</span>
+        <span>{{person.time}}</span>
+        {% endfor %}
+        <!-- <script>
+            let articleList={{article_list | safe}};
+            console.log(articleList);
+        </script> -->
+    </body>
+</html>
